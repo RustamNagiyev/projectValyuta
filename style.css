@@ -1,0 +1,111 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: darkslategray;
+}
+
+h1 {
+	background-color: #333;
+	color: whitesmoke;
+	padding: 20px;
+	margin: 0;
+}
+
+.currency-buttons-left {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.currency-buttons-right {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.currency-button-left,
+.currency-button-right {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.currency-button-left:hover,
+.currency-button-right:hover {
+  background-color: #ccc;
+  color: whitesmoke;
+}
+
+
+
+.conversion-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 90px;
+}
+
+.conversion-from,
+.conversion-to {
+	width: 30%;
+	height: 200px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ccc;
+
+	
+}
+
+.conversion-from h2 input,
+.conversion-to h2 input {
+	font-size: 45px;
+	font-weight: bold;
+	width: 90%;
+	text-align: left;
+	margin-left: 5px;
+	border: none;
+}
+
+.conversion-from h2 input:focus {
+	outline: none;
+}
+.conversion-to h2 input:focus{
+	outline: none;
+}
+
+.conversion-from input,
+.conversion-to input {
+	display: block;
+	padding-top: 40px;
+	padding-left: 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 90%;
+	box-sizing: border-box;
+	background-color: #ccc;
+}
+#to-currency, #from-currency{
+	display: none;
+}
+#exchange-rate-reverse{
+	padding-left: 27px;
+	color: darkcyan;
+}
+#exchange-rate{
+	padding-left: 27px;
+	color: darkcyan;
+}
+.heading{
+	font-size: 70px;
+	font-weight: bold;
+	margin-left: 150px;
+	margin-top: 100px;
+	color: whitesmoke;
+}
